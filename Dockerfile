@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8
+FROM python:3.10.0-slim
 WORKDIR /code
 EXPOSE 8000
 COPY ./app /app
