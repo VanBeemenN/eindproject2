@@ -1,11 +1,13 @@
-<<<<<<< HEAD
+
 # eindproject_api
-=======
+
 # APIPROJECT - festivals en landen
 
 Mijn hosted-link: http://127.0.0.1:8000/docs 
 
 Onderwerp: als onderwerp heb ik gekozen om verschillende festivals in te kunnen geven en hier dan ook de landen aan te koppelen waar ze plaatsvinden.
+
+Ik heb gekozen om mijn basisproject verder uit te werken tot mijn eindproject.
 # API
 
 - get_festivals: heeft een overzicht van alle ingevoerde festivals
@@ -16,7 +18,12 @@ Onderwerp: als onderwerp heb ik gekozen om verschillende festivals in te kunnen 
 - post_landen: hier kan je de naam van een land invoeren
 - get_landen_land_id: geeft de informatie van een specifiek land
 
-![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/76122d40-1a18-4fea-be4e-f5d7711d07d0)
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/ab8f7ae4-ca60-420a-a25d-2946d3bf88f7)
+
+# Authenticatie 
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/78983f7b-205c-463e-99e9-dcde55030465)
+
+
 # Screenshots
 
 ![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/5181c676-b269-4172-9bde-e96c34a344d9)
@@ -39,6 +46,10 @@ Onderwerp: als onderwerp heb ik gekozen om verschillende festivals in te kunnen 
 
 ![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/2d227d94-bab9-4d81-ad9d-9584a4a2abb3)
 ![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/de0a7c05-73eb-426c-af57-eabc73ade8b0)
+
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/91957008-6e88-4ad5-8795-e2dd1e2be99e)
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/42d3ef83-9f98-4c47-8698-256d18c90b87)
+
 # Postman
 get_festivals:
 
@@ -73,19 +84,25 @@ get_landen_land_id:
 
 ![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/42494ab3-4c6d-4209-88ad-9854c0d24fd0)
 
+get index:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/13f283ee-2f73-407f-91e3-ca288ed60b77)
+
+
 # Docker & docker-compose
 Dockerfile:
 
-![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/c6961876-225d-45f9-80e2-179664727151)
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/e45792a3-1883-4339-be17-30b5203d87a4)
+
 
 Docker-compose: 
 
-![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/65f76343-c438-4887-810c-d5d540383be0)
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/8f7c9deb-f1ea-4d1c-b012-69852995c8b1)
+
 
 # Okteto
-![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/b6b4f225-6439-4e3c-8297-cfd77fcb7fc5)
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/2222902a-4d97-4458-b824-112b0a3e0724)
 
-https://cloud.okteto.com/spaces/vanbeemenn
+[https://cloud.okteto.com/spaces/vanbeemenn](https://cloud.okteto.com/spaces/vanbeemenn?resourceId=728ad2d5-3a00-402e-944d-f657f15280c9)
 
 # Security
 HTTP basic security: vragen voor een inloggegever
@@ -94,6 +111,7 @@ HTTP basic security: vragen voor een inloggegever
 
 ![image](https://github.com/VanBeemenN/APIPROJECT/assets/91262450/b2fd5674-2ad9-40d2-8a81-a993d4b61846)
 
+# Hashing & OAuth
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/cd2c917a-bb5c-428e-bbd6-88ac547fc7f0)
 
 
->>>>>>> origin/main
