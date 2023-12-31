@@ -7,7 +7,16 @@ Mijn hosted-link: http://127.0.0.1:8000/docs
 
 Onderwerp: als onderwerp heb ik gekozen om verschillende festivals in te kunnen geven en hier dan ook de landen aan te koppelen waar ze plaatsvinden.
 
-Ik heb gekozen om mijn basisproject verder uit te werken tot mijn eindproject.
+Ik heb gekozen om mijn basisproject verder uit te werken tot mijn eindproject. Volgende onderwerpen heb ik uitgewerkt:
+  * 1. Algemene eisen & documentatie
+  * 2.1 (+5%) Test alle niet-GET endpoints.
+  * 2.2 (+5%) Zorg ervoor dat de testfile ook tijdens de GitHub Actions gerund wordt.
+  * 3.1 (+15%) Maak een front-end voor je applicatie die al je GET endpoints en POST endpoints bevat.
+  * 3.1.1 (+10%) Host de front-end op Netlify.
+      https://app.netlify.com/sites/frabjous-brigadeiros-80fff4/overview
+      https://frabjous-brigadeiros-80fff4.netlify.app/ 
+  * 3.1.2 (+10%) Geef de front-end een leuke stijlgeving.
+    
 # API
 
 - get_festivals: heeft een overzicht van alle ingevoerde festivals
@@ -97,6 +106,34 @@ Dockerfile:
 Docker-compose: 
 
 ![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/8f7c9deb-f1ea-4d1c-b012-69852995c8b1)
+
+
+# Testing
+Ik heb enkele testen geschreven voor mijn endpoints, deze kan u hier vinden.
+
+test_create_festival:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/157c3eb0-2996-4caf-87e7-7ecb805df4dd)
+
+test_read_festivals:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/cbb311cb-bfa6-4200-9742-4b38b0f28f13)
+
+test_read_festival:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/16f78e34-eeda-4f08-8aad-ba47bf594839)
+
+test_delete_festival:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/92a55e35-4a08-41de-badb-f1e8863c02c0)
+
+test_create_land:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/4f9e2812-6b02-4b36-bdef-6df9b0cc5c7e)
+
+test_read_landen:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/82872fc1-7088-457d-b9ff-a14b26a7cc86)
+
+test_read_land:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/b3091476-48ee-4f66-8e83-624328a1d338)
+
+test_delete_land:
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/215a82f6-7165-4076-b57a-6fb02643bba1)
 
 
 # Okteto
