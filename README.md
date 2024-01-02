@@ -8,7 +8,7 @@ Mijn hosted-link: http://127.0.0.1:8000/docs
 Onderwerp: als onderwerp heb ik gekozen om verschillende festivals in te kunnen geven en hier dan ook de landen aan te koppelen waar ze plaatsvinden.
 
 Ik heb gekozen om mijn basisproject verder uit te werken tot mijn eindproject. Volgende onderwerpen heb ik uitgewerkt:
-  * 1. Algemene eisen & documentatie
+   Algemene eisen & documentatie
   * 2.1 (+5%) Test alle niet-GET endpoints.
   * 2.2 (+5%) Zorg ervoor dat de testfile ook tijdens de GitHub Actions gerund wordt.
   * 3.1 (+15%) Maak een front-end voor je applicatie die al je GET endpoints en POST endpoints bevat.
