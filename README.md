@@ -16,6 +16,7 @@ Ik heb gekozen om mijn basisproject verder uit te werken tot mijn eindproject. V
       https://app.netlify.com/sites/frabjous-brigadeiros-80fff4/overview
       https://frabjous-brigadeiros-80fff4.netlify.app/ 
   * 3.1.2 (+10%) Geef de front-end een leuke stijlgeving.
+  * 3.1.3 (+15%) Gebruik Vue, React, Angular of Svelte als JavaScript framework.
     
 # API
 
@@ -140,6 +141,11 @@ test_delete_land:
 ![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/2222902a-4d97-4458-b824-112b0a3e0724)
 
 [https://cloud.okteto.com/spaces/vanbeemenn](https://cloud.okteto.com/spaces/vanbeemenn?resourceId=728ad2d5-3a00-402e-944d-f657f15280c9)
+
+# Angular
+Ik heb Angular opgezet, dit kan u vinden onder /myproject/festival-app/src/app/festival-form
+![image](https://github.com/VanBeemenN/eindproject2/assets/91262450/bdec7884-0106-4a99-b0c6-714830070226)
+
 
 # Security
 HTTP basic security: vragen voor een inloggegever
