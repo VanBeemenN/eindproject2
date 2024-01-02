@@ -114,7 +114,7 @@
                 eind_datum: document.getElementById('eind_datum').value,
             };
 
-            fetch('http://localhost:8000/create_festival', {
+            fetch('http://127.0.0.1:8000/create_festival', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -134,7 +134,7 @@
 
         // Function to get festivals data
         function getFestivals() {
-            fetch('http://localhost:8000/festivals')
+            fetch('http://127.0.0.1:8000/festivals')
                 .then(response => response.json())
                 .then(data => {
                     console.log('Festivals Data:', data);
@@ -145,7 +145,7 @@
 
         // Function to get landen data
         function getLanden() {
-            fetch('http://localhost:8000/landen')
+            fetch('http://127.0.0.1:8000/landen')
                 .then(response => response.json())
                 .then(data => {
                     console.log('Landen Data:', data);
@@ -156,7 +156,7 @@
 
         // Function to get current user data
         function getCurrentUser() {
-            fetch('http://localhost:8000/users/me', {
+            fetch('http://127.0.0.1:8000/users/me', {
                 headers: {
                     'Authorization': 'Basic ' + btoa('your-username:your-password') // Replace with actual credentials
                 }
@@ -168,9 +168,6 @@
                 })
                 .catch(error => console.error('Error:', error));
         }
-
-
-
     </script>
 
 </body>

@@ -1,0 +1,38 @@
+<div>
+  <form>
+    <h1>Enter Festival Information</h1>
+    <label for="naam">Name:</label>
+    <input type="text" id="naam" [(ngModel)]="formData.naam" name="naam" required>
+
+    <label for="locatie">Location:</label>
+    <input type="text" id="locatie" [(ngModel)]="formData.locatie" name="locatie" required>
+
+    <label for="start_datum">Start Date:</label>
+    <input type="date" id="start_datum" [(ngModel)]="formData.start_datum" name="start_datum" required>
+
+    <label for="eind_datum">End Date:</label>
+    <input type="date" id="eind_datum" [(ngModel)]="formData.eind_datum" name="eind_datum" required>
+
+    <button type="button" (click)="submitForm()">Submit</button>
+
+    <div id="responseMessage">{{ responseMessage }}</div>
+
+    <div id="festivalsData">
+      <h2>Festival Data</h2>
+      <button type="button" (click)="getFestivals()">Get Festivals</button>
+      <pre id="festivalsResponse"></pre>
+    </div>
+
+    <div id="landenData">
+      <h2>Landen Data</h2>
+      <button type="button" (click)="getLanden()">Get Landen</button>
+      <pre id="landenResponse"></pre>
+    </div>
+
+    <div id="userData">
+      <h2>User Data</h2>
+      <button type="button" (click)="getCurrentUser()">Get Current User</button>
+      <pre id="userResponse"></pre>
+    </div>
+  </form>
+</div>

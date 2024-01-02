@@ -32,7 +32,7 @@ def get_db():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust this to your frontend domain in production
+    allow_origins=["http://127.0.0.1:8000"],  # Adjust this to your frontend domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
@@ -55,6 +55,7 @@ def create_festival(festival: schemas.FestivalCreate, db: Session = Depends(get_
 @app.get("/festivals", response_model=list[schemas.Festival])
 async def read_festivals(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     festivals = crud.get_festivals(db, skip=skip, limit=limit)
+    print(festivals)  # Voeg deze regel toe om de ontvangen gegevens te bekijken
     return festivals
 
 
@@ -103,7 +104,10 @@ def get_index():
     index_path = os.path.join(os.path.dirname(__file__), "index.html")
     return FileResponse(index_path)
 
-
+@app.get("/index2")
+def get_index2():
+    index_path = os.path.join(os.path.dirname(__file__), "index.jsx")
+    return FileResponse(index_path)
 @app.post("/create_festival")
 async def create_festival(festival_data: schemas.FestivalCreate, db: Session = Depends(get_db)):
     # Your code to handle the festival creation
